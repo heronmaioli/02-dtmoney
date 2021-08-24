@@ -14,8 +14,8 @@ export function Summary() {
             acc.deposits += transaction.amount
             acc.total += transaction.amount
          } else {
-            acc.withdraw += transaction.amount
             acc.withdraw -= transaction.amount
+            acc.total -= transaction.amount
          }
 
          return acc
@@ -47,7 +47,6 @@ export function Summary() {
                <img src={outcomeImg} alt='Saídas' />
             </header>
             <strong>
-               -
                {new Intl.NumberFormat('pt-BR', {
                   style: 'currency',
                   currency: 'BRL',
