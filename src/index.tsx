@@ -5,7 +5,7 @@ import { App } from './App'
 
 createServer({
    models: {
-      transactions: Model,
+      transaction: Model,
    },
 
    seeds(server) {
@@ -25,7 +25,7 @@ createServer({
                type: 'withdraw',
                category: 'PC',
                amount: 600,
-               createdAt: new Date('2021-02-12 09:00:00'),
+               createdAt: new Date('2021-02-14 09:00:00'),
             },
          ],
       })
@@ -35,12 +35,12 @@ createServer({
       this.namespace = 'api'
 
       this.get('/transactions', () => {
-         return this.schema.all('transactions')
+         return this.schema.all('transaction')
       })
 
       this.post('/transactions', (schema, request) => {
          const data = JSON.parse(request.requestBody)
-         return schema.create('transaction', data)
+         return schema.create('transaction', { ...data, createdAt: new Date() })
       })
    },
 })
