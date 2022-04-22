@@ -8,7 +8,7 @@
  
 ### Description
 
-A basic account management project carried out through the course [Ignite - ReactJs (https://www.rocketseat.com.br/ignite)], with the aim of presenting the notions of:
+A basic account management project carried out through the course [Ignite - ReactJs](https://www.rocketseat.com.br/ignite), with the aim of presenting the notions of:
 - Creating custom hooks
 - TypeScript
 - Js styling with Styled-Components
