@@ -8,6 +8,11 @@
  
 ### Description
 
+A basic account management project carried out through the course [Ignite - ReactJs (https://www.rocketseat.com.br/ignite)], with the aim of presenting the notions of:
+-creating custom hooks
+-TypeScript
+-js styling with Styled-Components
+-local api with mirage.js
  
 
    
