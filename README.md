@@ -19,7 +19,7 @@ A basic account management project carried out through the course [Ignite - Reac
    ### Features
    
 - Add a transaction
-  ![image](https://user-images.githubusercontent.com/68977600/164767924-03e5cfd0-b3c4-46dc-a626-ac71c0f71329.png)
+![image](https://user-images.githubusercontent.com/68977600/164768229-508e9231-57eb-484c-aa01-7b18d5469c26.png)
 
 - History table
 ![image](https://user-images.githubusercontent.com/68977600/164768017-d5958d1f-d23f-4a9b-9edc-23fed3f2d4ec.png)
