@@ -19,8 +19,10 @@ A basic account management project carried out through the course [Ignite - Reac
    ### Features
    
 - Add a transaction
-- ![image](https://user-images.githubusercontent.com/68977600/164766338-4c5a811b-6bca-47e7-925c-3efca33f4d4d.png)
+  ![image](https://user-images.githubusercontent.com/68977600/164767924-03e5cfd0-b3c4-46dc-a626-ac71c0f71329.png)
 
-- TypeScript
-- Js styling with Styled-Components
-- Local api with mirage.js
+- History table
+![image](https://user-images.githubusercontent.com/68977600/164768017-d5958d1f-d23f-4a9b-9edc-23fed3f2d4ec.png)
+
+- General balance
+![image](https://user-images.githubusercontent.com/68977600/164768094-fa5048ce-846a-430a-b63c-c31ec07293a6.png)
